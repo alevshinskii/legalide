@@ -637,5 +637,32 @@ footer .nav-block {
         margin-right: 10px; }
       footer .nav-block .container .col:last-child ul li a {
         color: white; }
+footer .madeby-block {
+  background: #FAFAFA;
+  color: white; }
+  footer .madeby-block .container {
+    padding-top: 25px;
+    margin-left: 12%;
+    margin-right: 12%;
+    width: 76%;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    footer .madeby-block .container .text {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 171%;
+      letter-spacing: 0.2px;
+      /* second-text-color */
+      color: #737373; }
+    footer .madeby-block .container .icons {
+      display: flex;
+      align-items: center; }
+      footer .madeby-block .container .icons a {
+        margin-left: 10px;
+        margin-right: 10px; }
 
 /*# sourceMappingURL=style.css.map */

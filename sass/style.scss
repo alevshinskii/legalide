@@ -825,4 +825,41 @@ footer{
             }
         }
     }
+
+    .madeby-block{
+        background: #FAFAFA;
+        color: white;
+        .container{
+            padding-top: 25px;
+            margin-left: 12%;
+            margin-right: 12%;
+            width: 76%;
+            padding-bottom: 25px;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .text{
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 171%;
+                letter-spacing: 0.2px;
+
+                /* second-text-color */
+
+                color: #737373;
+            }
+            .icons{
+                display: flex;
+                align-items: center;
+                a{
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
 }
