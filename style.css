@@ -548,7 +548,58 @@ main .getintouch-block {
           /* primary-color */
           color: #D0A144; }
 
-footer {
-  height: 100px; }
+footer .requestconsult-block {
+  background: #FAFAFA; }
+  footer .requestconsult-block .container {
+    padding-top: 40px;
+    margin-left: 12%;
+    margin-right: 12%;
+    width: 76%;
+    padding-bottom: 40px;
+    display: flex; }
+    footer .requestconsult-block .container .text-block {
+      width: 50%; }
+      footer .requestconsult-block .container .text-block h3 {
+        font-family: 'Martel';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 133%;
+        letter-spacing: 0.1px;
+        /* text-color */
+        color: #252B42; }
+      footer .requestconsult-block .container .text-block p {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: 0.2px;
+        /* second-text-color */
+        color: #737373; }
+    footer .requestconsult-block .container .button-block {
+      width: 50%;
+      display: flex;
+      justify-content: center; }
+      footer .requestconsult-block .container .button-block button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 40px;
+        gap: 10px;
+        width: 158px;
+        height: 58px;
+        /* secondary-color-2 */
+        background: #784F33;
+        border-radius: 5px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 200%;
+        text-align: center;
+        letter-spacing: 0.2px;
+        /* light-text-color */
+        color: #FFFFFF; }
 
 /*# sourceMappingURL=style.css.map */
