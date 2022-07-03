@@ -435,7 +435,7 @@ main .partners-block {
             letter-spacing: 0.2px;
             /* second-text-color */
             color: #737373;
-            padding: 15px 20px 15px 20px;
+            padding: 15px 5% 15px 5%;
             margin: 0;
             border-radius: 5px 0px 0px 5px; }
           main .partners-block .underline .container .subscribe-block .form button {
@@ -455,6 +455,98 @@ main .partners-block {
             margin: 0;
             margin-left: -5px;
             padding: 15px 20px 15px 20px; }
+main .getintouch-block {
+  background-color: #F3F3F3; }
+  main .getintouch-block .container {
+    padding-top: 80px;
+    margin-left: 12%;
+    margin-right: 12%;
+    width: 76%;
+    text-align: center;
+    padding-bottom: 155px; }
+    main .getintouch-block .container h3 {
+      font-family: 'Martel';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 125%;
+      letter-spacing: 0.2px;
+      /* text-color */
+      color: #252B42;
+      text-transform: capitalize; }
+    main .getintouch-block .container p {
+      margin-top: 10px;
+      margin-bottom: 80px;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 143%;
+      text-align: center;
+      letter-spacing: 0.2px;
+      /* second-text-color */
+      color: #737373; }
+    main .getintouch-block .container .content {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      main .getintouch-block .container .content .card {
+        width: 330px;
+        height: 340px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 40px;
+        background: #FFFFFF;
+        color: #252B42; }
+        main .getintouch-block .container .content .card a {
+          font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 171%;
+          text-align: center;
+          letter-spacing: 0.2px;
+          color: #252B42; }
+        main .getintouch-block .container .content .card:nth-child(2) {
+          height: 400px;
+          padding: 60px 50px;
+          background: #252B42;
+          color: white; }
+          main .getintouch-block .container .content .card:nth-child(2) a {
+            color: white; }
+        main .getintouch-block .container .content .card .card-text {
+          margin-top: 15px; }
+          main .getintouch-block .container .content .card .card-text h6 {
+            font-family: 'Martel';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 150%;
+            text-align: center;
+            letter-spacing: 0.1px;
+            margin-top: 15px;
+            margin-bottom: 15px; }
+        main .getintouch-block .container .content .card .card-button button {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 10px 20px;
+          gap: 10px;
+          /* primary-color */
+          border: 1px solid #D0A144;
+          border-radius: 5px;
+          background-color: transparent;
+          font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 171%;
+          text-align: center;
+          letter-spacing: 0.2px;
+          /* primary-color */
+          color: #D0A144; }
 
 footer {
   height: 100px; }

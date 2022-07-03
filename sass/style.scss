@@ -526,7 +526,7 @@ main{
     
                             color: #737373;
     
-                            padding:15px 20px 15px 20px;
+                            padding:15px 5% 15px 5%; 
                             
                             margin: 0;
                             
@@ -560,6 +560,135 @@ main{
     
             }
 
+        }
+    }
+
+    .getintouch-block{
+        background-color: #F3F3F3;
+        .container{
+            padding-top: 80px;
+            margin-left: 12%;
+            margin-right: 12%;
+            width: 76%;
+            text-align: center;
+            padding-bottom: 155px;
+            h3{
+                font-family: 'Martel';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 125%;
+                letter-spacing: 0.2px;
+                
+                /* text-color */
+                
+                color: #252B42;
+                
+                text-transform: capitalize;
+            }
+            p{
+                margin-top: 10px;
+                margin-bottom: 80px;
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 143%;
+                text-align: center;
+                letter-spacing: 0.2px;
+                
+                /* second-text-color */
+                
+                color: #737373;
+                
+            }
+
+            .content{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .card{
+                    width:330px;
+                    height: 340px;
+
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 50px 40px;
+
+                    background: #FFFFFF;
+                    
+                    color: #252B42;
+                    a{
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 171%;
+
+                        text-align: center;
+                        letter-spacing: 0.2px;
+                        color: #252B42;
+                    }
+                    &:nth-child(2){
+                        height: 400px;
+                        padding: 60px 50px;
+                        background: #252B42;
+
+                        color: white;
+                        a{
+                            color: white;
+                        }
+                    }
+                    .card-text{
+                        margin-top: 15px;
+                        h6{
+                            font-family: 'Martel';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 150%;
+                            text-align: center;
+                            letter-spacing: 0.1px;
+
+                            margin-top: 15px;
+                            margin-bottom: 15px;
+                        }
+                    }
+                    .card-button{
+                        button{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            padding: 10px 20px;
+                            gap: 10px;
+    
+                            /* primary-color */
+    
+                            border: 1px solid #D0A144;
+                            border-radius: 5px;
+    
+                            background-color: transparent;
+    
+                            font-family: 'Open Sans';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 14px;
+                            line-height: 171%;
+    
+                            text-align: center;
+                            letter-spacing: 0.2px;
+    
+                            /* primary-color */
+    
+                            color: #D0A144;
+                        }
+                    }
+                }
+
+            }
         }
     }
 }
