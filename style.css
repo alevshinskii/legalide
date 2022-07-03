@@ -73,13 +73,13 @@ header {
       margin-right: 12%;
       width: 76%; }
       header .nav .container .logo {
-        font-family: 'Martel';
+        font-family: "Martel";
         font-style: normal;
         font-weight: 700;
         font-size: 24px;
         line-height: 133%;
         letter-spacing: 0.1px;
-        color: #252B42; }
+        color: #252b42; }
       header .nav .container .nav-right {
         display: flex; }
         header .nav .container .nav-right .menu-items {
@@ -88,7 +88,7 @@ header {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            font-family: 'Open Sans';
+            font-family: "Open Sans";
             font-style: normal;
             font-weight: 600;
             font-size: 14px;
@@ -106,10 +106,10 @@ header {
           header .nav .container .nav-right .icons .cart-icon {
             display: flex;
             align-items: center; }
-  header .toggler {
-    position: absolute;
-    top: 45px;
-    right: 60px; }
+          header .nav .container .nav-right .icons .toggler {
+            display: none; }
+  header .mobile-nav {
+    display: none; }
   header .main {
     display: flex;
     justify-content: center; }
@@ -125,17 +125,17 @@ header {
         justify-content: center;
         align-content: center; }
         header .main .container .main-text h2 {
-          font-family: 'Martel';
+          font-family: "Martel";
           font-style: normal;
           font-weight: 900;
           font-size: 58px;
           line-height: 112%;
           letter-spacing: 0.2px;
-          color: #252B42; }
+          color: #252b42; }
         header .main .container .main-text h3 {
           margin-top: 35px;
           margin-bottom: 35px;
-          font-family: 'Montserrat';
+          font-family: "Montserrat";
           font-style: normal;
           font-weight: 500;
           font-size: 20px;
@@ -145,7 +145,7 @@ header {
         header .main .container .main-text .buttons {
           display: flex; }
           header .main .container .main-text .buttons button {
-            font-family: 'Open Sans';
+            font-family: "Open Sans";
             font-style: normal;
             font-weight: 700;
             font-size: 14px;
@@ -160,17 +160,17 @@ header {
             border-radius: 37px; }
             header .main .container .main-text .buttons button:first-child {
               /* secondary-color-2 */
-              background: #784F33;
+              background: #784f33;
               /* light-text-color */
-              color: #FFFFFF; }
+              color: #ffffff; }
             header .main .container .main-text .buttons button:last-child {
               margin-left: 10px;
               box-sizing: border-box;
               /* secondary-color-2 */
-              border: 1px solid #784F33;
+              border: 1px solid #784f33;
               background-color: transparent;
               /* secondary-color-2 */
-              color: #784F33; }
+              color: #784f33; }
       header .main .container .agent {
         width: 50%; }
 
@@ -184,19 +184,19 @@ main .areas-block {
     width: 76%;
     text-align: center; }
     main .areas-block .container h3 {
-      font-family: 'Martel';
+      font-family: "Martel";
       font-style: normal;
       font-weight: 700;
       font-size: 40px;
       line-height: 125%;
       letter-spacing: 0.2px;
       /* text-color */
-      color: #252B42;
+      color: #252b42;
       text-transform: capitalize; }
     main .areas-block .container p {
       margin-top: 10px;
       margin-bottom: 80px;
-      font-family: 'Open Sans';
+      font-family: "Open Sans";
       font-style: normal;
       font-weight: 400;
       font-size: 14px;
@@ -216,10 +216,10 @@ main .areas-block {
         gap: 10px;
         width: 325px;
         height: 147px;
-        background: #F9F9F9;
+        background: #f9f9f9;
         box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
         border-radius: 5px;
-        font-family: 'Martel';
+        font-family: "Martel";
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
@@ -227,10 +227,10 @@ main .areas-block {
         text-align: center;
         letter-spacing: 0.1px;
         /* text-color */
-        color: #252B42; }
+        color: #252b42; }
         main .areas-block .container .cards .card:nth-child(2) {
           /* secondary-color-4 */
-          background: #295C7A;
+          background: #295c7a;
           margin-left: 32px;
           margin-right: 32px;
           color: white; }
@@ -239,7 +239,7 @@ main .areas-block {
           height: 53px; }
 main .advice-block {
   display: flex;
-  background: #FAFAFA; }
+  background: #fafafa; }
   main .advice-block .container {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -248,19 +248,19 @@ main .advice-block {
     width: 76%;
     text-align: center; }
     main .advice-block .container h3 {
-      font-family: 'Martel';
+      font-family: "Martel";
       font-style: normal;
       font-weight: 700;
       font-size: 40px;
       line-height: 125%;
       letter-spacing: 0.2px;
       /* text-color */
-      color: #252B42;
+      color: #252b42;
       text-transform: capitalize; }
     main .advice-block .container p {
       margin-top: 10px;
       margin-bottom: 80px;
-      font-family: 'Open Sans';
+      font-family: "Open Sans";
       font-style: normal;
       font-weight: 400;
       font-size: 14px;
@@ -282,7 +282,7 @@ main .advice-block {
         width: 238px;
         background: white; }
         main .advice-block .container .cards .card .card-text {
-          font-family: 'Martel';
+          font-family: "Martel";
           font-style: normal;
           font-weight: 700;
           font-size: 16px;
@@ -291,7 +291,7 @@ main .advice-block {
           text-align: start;
           letter-spacing: 0.1px;
           /* text-color */
-          color: #252B42; }
+          color: #252b42; }
         main .advice-block .container .cards .card p {
           text-align: start;
           margin-bottom: 0px; }
@@ -306,19 +306,19 @@ main .whoweare-block {
     width: 76%;
     text-align: center; }
     main .whoweare-block .container h3 {
-      font-family: 'Martel';
+      font-family: "Martel";
       font-style: normal;
       font-weight: 700;
       font-size: 40px;
       line-height: 125%;
       letter-spacing: 0.2px;
       /* text-color */
-      color: #252B42;
+      color: #252b42;
       text-transform: capitalize; }
     main .whoweare-block .container p {
       margin-top: 10px;
       margin-bottom: 80px;
-      font-family: 'Open Sans';
+      font-family: "Open Sans";
       font-style: normal;
       font-weight: 400;
       font-size: 14px;
@@ -350,7 +350,8 @@ main .whoweare-block {
         justify-content: center;
         width: 35%;
         text-align: start; }
-        main .whoweare-block .container .content .desc h3, main .whoweare-block .container .content .desc p {
+        main .whoweare-block .container .content .desc h3,
+        main .whoweare-block .container .content .desc p {
           text-align: start;
           text-transform: none; }
         main .whoweare-block .container .content .desc p {
@@ -361,16 +362,16 @@ main .whoweare-block {
           main .whoweare-block .container .content .desc .card-item .card-image {
             margin-right: 20px; }
           main .whoweare-block .container .content .desc .card-item .card-text h5 {
-            font-family: 'Martel';
+            font-family: "Martel";
             font-style: normal;
             font-weight: 700;
             font-size: 16px;
             line-height: 150%;
             letter-spacing: 0.1px;
             /* text-color */
-            color: #252B42; }
+            color: #252b42; }
           main .whoweare-block .container .content .desc .card-item .card-text h6 {
-            font-family: 'Open Sans';
+            font-family: "Open Sans";
             font-style: normal;
             font-weight: 700;
             font-size: 14px;
@@ -378,7 +379,7 @@ main .whoweare-block {
             /* second-text-color */
             color: #737373; }
 main .partners-block {
-  background-color: #FAFAFA; }
+  background-color: #fafafa; }
   main .partners-block .container {
     padding-top: 50px;
     margin-left: 12%;
@@ -393,7 +394,7 @@ main .partners-block {
     width: 100%;
     height: 77px;
     /* dark-background-color */
-    background: #252B42; }
+    background: #252b42; }
     main .partners-block .underline .container {
       margin-left: 12%;
       margin-right: 12%;
@@ -408,11 +409,11 @@ main .partners-block {
         width: 100%;
         height: 124px;
         /* background-gradient-1 */
-        background: linear-gradient(270deg, #295C7A -1.04%, #0072B5 100%);
+        background: linear-gradient(270deg, #295c7a -1.04%, #0072b5 100%);
         border-radius: 2px; }
         main .partners-block .underline .container .subscribe-block .text {
           width: 50%;
-          font-family: 'Martel';
+          font-family: "Martel";
           font-style: normal;
           font-weight: 700;
           font-size: 24px;
@@ -423,11 +424,11 @@ main .partners-block {
         main .partners-block .underline .container .subscribe-block .form {
           width: 50%; }
           main .partners-block .underline .container .subscribe-block .form input {
-            background: #F9F9F9;
+            background: #f9f9f9;
             width: 75%;
-            border: 1px solid #E6E6E6;
+            border: 1px solid #e6e6e6;
             border-radius: 5px;
-            font-family: 'Montserrat';
+            font-family: "Montserrat";
             font-style: normal;
             font-weight: 400;
             font-size: 14px;
@@ -439,9 +440,9 @@ main .partners-block {
             margin: 0;
             border-radius: 5px 0px 0px 5px; }
           main .partners-block .underline .container .subscribe-block .form button {
-            background: #D0A144;
-            border: 1px solid #E6E6E6;
-            font-family: 'Montserrat';
+            background: #d0a144;
+            border: 1px solid #e6e6e6;
+            font-family: "Montserrat";
             font-style: normal;
             font-weight: 400;
             font-size: 14px;
@@ -456,7 +457,7 @@ main .partners-block {
             margin-left: -5px;
             padding: 15px 20px 15px 20px; }
 main .getintouch-block {
-  background-color: #F3F3F3; }
+  background-color: #f3f3f3; }
   main .getintouch-block .container {
     padding-top: 80px;
     margin-left: 12%;
@@ -465,19 +466,19 @@ main .getintouch-block {
     text-align: center;
     padding-bottom: 155px; }
     main .getintouch-block .container h3 {
-      font-family: 'Martel';
+      font-family: "Martel";
       font-style: normal;
       font-weight: 700;
       font-size: 40px;
       line-height: 125%;
       letter-spacing: 0.2px;
       /* text-color */
-      color: #252B42;
+      color: #252b42;
       text-transform: capitalize; }
     main .getintouch-block .container p {
       margin-top: 10px;
       margin-bottom: 80px;
-      font-family: 'Open Sans';
+      font-family: "Open Sans";
       font-style: normal;
       font-weight: 400;
       font-size: 14px;
@@ -498,28 +499,28 @@ main .getintouch-block {
         align-items: center;
         justify-content: center;
         padding: 50px 40px;
-        background: #FFFFFF;
-        color: #252B42; }
+        background: #ffffff;
+        color: #252b42; }
         main .getintouch-block .container .content .card a {
-          font-family: 'Open Sans';
+          font-family: "Open Sans";
           font-style: normal;
           font-weight: 700;
           font-size: 14px;
           line-height: 171%;
           text-align: center;
           letter-spacing: 0.2px;
-          color: #252B42; }
+          color: #252b42; }
         main .getintouch-block .container .content .card:nth-child(2) {
           height: 400px;
           padding: 60px 50px;
-          background: #252B42;
+          background: #252b42;
           color: white; }
           main .getintouch-block .container .content .card:nth-child(2) a {
             color: white; }
         main .getintouch-block .container .content .card .card-text {
           margin-top: 15px; }
           main .getintouch-block .container .content .card .card-text h6 {
-            font-family: 'Martel';
+            font-family: "Martel";
             font-style: normal;
             font-weight: 700;
             font-size: 16px;
@@ -535,10 +536,10 @@ main .getintouch-block {
           padding: 10px 20px;
           gap: 10px;
           /* primary-color */
-          border: 1px solid #D0A144;
+          border: 1px solid #d0a144;
           border-radius: 5px;
           background-color: transparent;
-          font-family: 'Open Sans';
+          font-family: "Open Sans";
           font-style: normal;
           font-weight: 700;
           font-size: 14px;
@@ -546,10 +547,10 @@ main .getintouch-block {
           text-align: center;
           letter-spacing: 0.2px;
           /* primary-color */
-          color: #D0A144; }
+          color: #d0a144; }
 
 footer .requestconsult-block {
-  background: #FAFAFA; }
+  background: #fafafa; }
   footer .requestconsult-block .container {
     padding-top: 40px;
     margin-left: 12%;
@@ -560,17 +561,17 @@ footer .requestconsult-block {
     footer .requestconsult-block .container .text-block {
       width: 50%; }
       footer .requestconsult-block .container .text-block h3 {
-        font-family: 'Martel';
+        font-family: "Martel";
         font-style: normal;
         font-weight: 700;
         font-size: 24px;
         line-height: 133%;
         letter-spacing: 0.1px;
         /* text-color */
-        color: #252B42;
+        color: #252b42;
         margin-bottom: 10px; }
       footer .requestconsult-block .container .text-block p {
-        font-family: 'Open Sans';
+        font-family: "Open Sans";
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -591,9 +592,9 @@ footer .requestconsult-block {
         width: 158px;
         height: 58px;
         /* secondary-color-2 */
-        background: #784F33;
+        background: #784f33;
         border-radius: 5px;
-        font-family: 'Open Sans';
+        font-family: "Open Sans";
         font-style: normal;
         font-weight: 700;
         font-size: 14px;
@@ -601,9 +602,9 @@ footer .requestconsult-block {
         text-align: center;
         letter-spacing: 0.2px;
         /* light-text-color */
-        color: #FFFFFF; }
+        color: #ffffff; }
 footer .nav-block {
-  background: linear-gradient(270deg, #295C7A -1.04%, #0072B5 100%);
+  background: linear-gradient(270deg, #295c7a -1.04%, #0072b5 100%);
   color: white; }
   footer .nav-block .container {
     padding-top: 40px;
@@ -614,7 +615,7 @@ footer .nav-block {
     display: flex;
     justify-content: space-between; }
     footer .nav-block .container .col h6 {
-      font-family: 'Martel';
+      font-family: "Martel";
       font-style: normal;
       font-weight: 700;
       font-size: 16px;
@@ -622,7 +623,7 @@ footer .nav-block {
       letter-spacing: 0.1px;
       margin-bottom: 20px; }
     footer .nav-block .container .col ul {
-      font-family: 'Open Sans';
+      font-family: "Open Sans";
       font-style: normal;
       font-weight: 600;
       font-size: 14px;
@@ -638,7 +639,7 @@ footer .nav-block {
       footer .nav-block .container .col:last-child ul li a {
         color: white; }
 footer .madeby-block {
-  background: #FAFAFA;
+  background: #fafafa;
   color: white; }
   footer .madeby-block .container {
     padding-top: 25px;
@@ -650,7 +651,7 @@ footer .madeby-block {
     justify-content: space-between;
     align-items: center; }
     footer .madeby-block .container .text {
-      font-family: 'Open Sans';
+      font-family: "Open Sans";
       font-style: normal;
       font-weight: 700;
       font-size: 14px;
@@ -664,5 +665,492 @@ footer .madeby-block {
       footer .madeby-block .container .icons a {
         margin-left: 10px;
         margin-right: 10px; }
+
+@media screen and (max-width: 1200px) {
+  main .whoweare-block .container .content .desc h3 {
+    font-size: 20px; }
+  main .whoweare-block .container .content .desc .card-item .card-text h5 {
+    font-size: 14px; }
+  main .whoweare-block .container .content .desc .card-item .card-text h6 {
+    font-size: 12px; }
+  main .partners-block .underline .container .subscribe-block .form input {
+    width: 60%; }
+  main .partners-block .underline .container .subscribe-block .form button {
+    width: 40%; } }
+@media screen and (max-width: 1000px) {
+  header {
+    background-image: url("content/background-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover; }
+    header .nav {
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      height: 104px; }
+      header .nav .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 76%; }
+        header .nav .container .logo {
+          font-family: "Martel";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 133%;
+          letter-spacing: 0.1px;
+          color: #252b42; }
+        header .nav .container .nav-right {
+          display: flex; }
+          header .nav .container .nav-right .menu-items {
+            display: none;
+            justify-self: end; }
+            header .nav .container .nav-right .menu-items ul {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              font-family: "Open Sans";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 14px;
+              text-align: center;
+              letter-spacing: 0.2px;
+              color: #737373; }
+              header .nav .container .nav-right .menu-items ul li {
+                padding: 10px; }
+          header .nav .container .nav-right .icons {
+            margin-bottom: 5px; }
+            header .nav .container .nav-right .icons .cart-icon {
+              margin-left: 18px;
+              margin-right: 18px;
+              display: flex;
+              align-items: center; }
+            header .nav .container .nav-right .icons .toggler {
+              display: flex;
+              align-items: center;
+              margin-left: 18px;
+              height: 24px; }
+            header .nav .container .nav-right .icons img {
+              width: 24px; }
+    header .mobile-nav {
+      display: none;
+      background-color: white;
+      padding-top: 60px;
+      padding-bottom: 80px; }
+      header .mobile-nav ul li {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.2px;
+        /* second-text-color */
+        color: #737373;
+        margin-bottom: 30px; }
+        header .mobile-nav ul li:last-child {
+          margin-bottom: 0; }
+    header .main .container {
+      display: flex;
+      flex-direction: column;
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+      margin-left: 5%;
+      margin-right: 5%; }
+      header .main .container .main-text {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center; }
+        header .main .container .main-text h2 {
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 125%;
+          margin-top: 84px; }
+        header .main .container .main-text h3 {
+          margin-top: 35px;
+          margin-bottom: 35px;
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 150%;
+          letter-spacing: 0.2px;
+          color: #737373; }
+        header .main .container .main-text .buttons {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 108px; }
+          header .main .container .main-text .buttons button {
+            font-family: "Open Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 200%;
+            text-align: center;
+            letter-spacing: 0.2px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px 36px;
+            gap: 10px;
+            border-radius: 37px; }
+            header .main .container .main-text .buttons button:first-child {
+              /* secondary-color-2 */
+              background: #784f33;
+              /* light-text-color */
+              color: #ffffff;
+              margin-bottom: 20px; }
+            header .main .container .main-text .buttons button:last-child {
+              margin-left: 0;
+              box-sizing: border-box;
+              /* secondary-color-2 */
+              border: 1px solid #784f33;
+              background-color: transparent;
+              /* secondary-color-2 */
+              color: #784f33; }
+      header .main .container .agent {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        header .main .container .agent img {
+          width: 100%;
+          height: auto; }
+
+  main .areas-block {
+    display: flex; }
+    main .areas-block .container {
+      margin-top: 100px;
+      margin-bottom: 100px;
+      margin-left: 12%;
+      margin-right: 12%;
+      text-align: center; }
+      main .areas-block .container h3 {
+        font-family: "Martel";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 125%;
+        letter-spacing: 0.2px;
+        /* text-color */
+        color: #252b42;
+        text-transform: capitalize; }
+      main .areas-block .container p {
+        margin-top: 10px;
+        margin-bottom: 80px;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 143%;
+        text-align: center;
+        letter-spacing: 0.2px;
+        /* second-text-color */
+        color: #737373; }
+      main .areas-block .container .cards {
+        flex-direction: column;
+        align-items: center; }
+        main .areas-block .container .cards .card {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 30px 40px;
+          gap: 10px;
+          width: 325px;
+          height: 147px;
+          background: #f9f9f9;
+          box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+          border-radius: 5px;
+          font-family: "Martel";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 150%;
+          text-align: center;
+          letter-spacing: 0.1px;
+          /* text-color */
+          color: #252b42; }
+          main .areas-block .container .cards .card:nth-child(2) {
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 30px;
+            margin-bottom: 30px; }
+          main .areas-block .container .cards .card .card-logo {
+            width: 53px;
+            height: 53px; }
+  main .advice-block {
+    display: flex;
+    background: #fafafa; }
+    main .advice-block .container {
+      margin-top: 100px;
+      margin-bottom: 100px;
+      margin-left: 12%;
+      margin-right: 12%;
+      width: 76%;
+      text-align: center; }
+      main .advice-block .container h3 {
+        font-family: "Martel";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 125%;
+        letter-spacing: 0.2px;
+        /* text-color */
+        color: #252b42;
+        text-transform: capitalize; }
+      main .advice-block .container p {
+        margin-top: 10px;
+        margin-bottom: 80px;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 143%;
+        text-align: center;
+        letter-spacing: 0.2px;
+        /* second-text-color */
+        color: #737373; }
+      main .advice-block .container .cards {
+        flex-direction: column;
+        align-items: center; }
+        main .advice-block .container .cards .card {
+          margin-bottom: 30px; }
+  main .whoweare-block {
+    display: flex;
+    background: white; }
+    main .whoweare-block .container {
+      margin-top: 100px;
+      margin-bottom: 100px;
+      margin-left: 12%;
+      margin-right: 12%;
+      width: 76%;
+      text-align: center; }
+      main .whoweare-block .container h3 {
+        font-family: "Martel";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 125%;
+        letter-spacing: 0.2px;
+        /* text-color */
+        color: #252b42;
+        text-transform: capitalize; }
+      main .whoweare-block .container p {
+        margin-top: 10px;
+        margin-bottom: 80px;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 143%;
+        text-align: center;
+        letter-spacing: 0.2px;
+        /* second-text-color */
+        color: #737373; }
+      main .whoweare-block .container .content {
+        flex-direction: column; }
+        main .whoweare-block .container .content .video {
+          width: 100%;
+          height: max-content; }
+          main .whoweare-block .container .content .video img {
+            width: 100%;
+            height: auto; }
+          main .whoweare-block .container .content .video .play {
+            margin-top: -45%;
+            margin-bottom: 35%; }
+            main .whoweare-block .container .content .video .play img {
+              width: 15%; }
+        main .whoweare-block .container .content .desc {
+          width: 100%;
+          text-align: start;
+          margin-top: 72px; }
+          main .whoweare-block .container .content .desc h3 {
+            font-size: 40px; }
+          main .whoweare-block .container .content .desc h3,
+          main .whoweare-block .container .content .desc p {
+            text-align: start;
+            text-transform: none; }
+          main .whoweare-block .container .content .desc p {
+            margin-bottom: 50px; }
+          main .whoweare-block .container .content .desc .card-item {
+            display: flex;
+            margin-bottom: 30px; }
+            main .whoweare-block .container .content .desc .card-item .card-image {
+              margin-right: 20px; }
+            main .whoweare-block .container .content .desc .card-item .card-text h5 {
+              font-size: 16px; }
+            main .whoweare-block .container .content .desc .card-item .card-text h6 {
+              font-size: 14px; }
+  main .partners-block {
+    background-color: #fafafa; }
+    main .partners-block .container {
+      padding-top: 50px;
+      margin-left: 12%;
+      margin-right: 12%;
+      width: 76%;
+      padding-bottom: 135px; }
+      main .partners-block .container .logos {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        flex-direction: column; }
+        main .partners-block .container .logos .logo {
+          width: 150px;
+          margin-bottom: 60px; }
+          main .partners-block .container .logos .logo img {
+            width: 100%;
+            height: auto; }
+    main .partners-block .underline {
+      width: 100%;
+      height: 77px;
+      /* dark-background-color */
+      background: #fafafa; }
+      main .partners-block .underline .container {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%; }
+        main .partners-block .underline .container .subscribe-block {
+          top: -165px;
+          flex-direction: column;
+          padding: 30px 50px;
+          width: 100%;
+          height: auto;
+          /* background-gradient-1 */
+          background: linear-gradient(270deg, #295c7a -1.04%, #0072b5 100%);
+          border-radius: 2px; }
+          main .partners-block .underline .container .subscribe-block .text {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 30px; }
+          main .partners-block .underline .container .subscribe-block .form {
+            width: 100%; }
+            main .partners-block .underline .container .subscribe-block .form input {
+              width: 60%; }
+            main .partners-block .underline .container .subscribe-block .form button {
+              width: 40%; }
+  main .getintouch-block .container {
+    padding-top: 80px;
+    margin-left: 12%;
+    margin-right: 12%;
+    width: 76%;
+    text-align: center;
+    padding-bottom: 155px; }
+    main .getintouch-block .container h3 {
+      font-family: "Martel";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 125%;
+      letter-spacing: 0.2px;
+      /* text-color */
+      color: #252b42;
+      text-transform: capitalize; }
+    main .getintouch-block .container p {
+      margin-top: 10px;
+      margin-bottom: 80px;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 143%;
+      text-align: center;
+      letter-spacing: 0.2px;
+      /* second-text-color */
+      color: #737373; }
+    main .getintouch-block .container .content {
+      flex-direction: column; }
+      main .getintouch-block .container .content .card {
+        flex-direction: column; }
+        main .getintouch-block .container .content .card:nth-child(2) {
+          margin-top: 30px;
+          margin-bottom: 30px; }
+        main .getintouch-block .container .content .card .card-text {
+          margin-top: 15px; }
+          main .getintouch-block .container .content .card .card-text h6 {
+            font-family: "Martel";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 150%;
+            text-align: center;
+            letter-spacing: 0.1px;
+            margin-top: 15px;
+            margin-bottom: 15px; }
+        main .getintouch-block .container .content .card .card-button button {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 10px 20px;
+          gap: 10px;
+          /* primary-color */
+          border: 1px solid #d0a144;
+          border-radius: 5px;
+          background-color: transparent;
+          font-family: "Open Sans";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 171%;
+          text-align: center;
+          letter-spacing: 0.2px;
+          /* primary-color */
+          color: #d0a144; }
+
+  footer .requestconsult-block .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    flex-direction: column; }
+    footer .requestconsult-block .container .text-block {
+      width: 100%;
+      margin-bottom: 50px; }
+    footer .requestconsult-block .container .button-block {
+      width: 100%;
+      display: flex;
+      justify-content: center; }
+      footer .requestconsult-block .container .button-block button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 40px;
+        gap: 10px;
+        width: 158px;
+        height: 58px;
+        /* secondary-color-2 */
+        background: #784f33;
+        border-radius: 5px;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 200%;
+        text-align: center;
+        letter-spacing: 0.2px;
+        /* light-text-color */
+        color: #ffffff; }
+  footer .nav-block .container {
+    flex-direction: column; }
+    footer .nav-block .container .col {
+      margin-bottom: 30px; }
+  footer .madeby-block .container {
+    flex-direction: column; }
+    footer .madeby-block .container .text {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      width: 100%; }
+    footer .madeby-block .container .icons {
+      display: flex;
+      align-items: flex-start;
+      width: 100%;
+      margin-top: 50px;
+      margin-bottom: 50px; } }
 
 /*# sourceMappingURL=style.css.map */

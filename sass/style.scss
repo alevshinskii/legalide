@@ -1,7 +1,5 @@
 @import "reset.scss";
-@import url('https://fonts.googleapis.com/css2?family=Martel:wght@700;900&family=Open+Sans:wght@400;600;700&family=Montserrat:wght@400;500&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Martel:wght@700;900&family=Open+Sans:wght@400;600;700&family=Montserrat:wght@400;500&display=swap");
 
 header {
     background-image: url("content/background.png");
@@ -19,7 +17,7 @@ header {
             margin-right: 12%;
             width: 76%;
             .logo {
-                font-family: 'Martel';
+                font-family: "Martel";
                 font-style: normal;
                 font-weight: 700;
                 font-size: 24px;
@@ -27,9 +25,9 @@ header {
 
                 letter-spacing: 0.1px;
 
-                color: #252B42;
+                color: #252b42;
             }
-            .nav-right{
+            .nav-right {
                 display: flex;
                 .menu-items {
                     justify-self: end;
@@ -37,17 +35,17 @@ header {
                         display: flex;
                         flex-direction: row;
                         justify-content: space-between;
-    
-                        font-family: 'Open Sans';
+
+                        font-family: "Open Sans";
                         font-style: normal;
                         font-weight: 600;
                         font-size: 14px;
-    
+
                         text-align: center;
                         letter-spacing: 0.2px;
-    
+
                         color: #737373;
-                        li{
+                        li {
                             padding: 10px;
                         }
                     }
@@ -55,7 +53,7 @@ header {
                 .icons {
                     justify-self: end;
                     display: flex;
-                    >img{
+                    > img {
                         margin-left: 18px;
                         margin-right: 18px;
                     }
@@ -63,46 +61,49 @@ header {
                         display: flex;
                         align-items: center;
                     }
-                }    
+                    .toggler {
+                        display: none;
+                    }
+
+                    
+                }
             }
         }
     }
-    
-    .toggler{
-        position: absolute;
-        top: 45px;
-        right: 60px;
+
+    .mobile-nav{
+        display: none;
     }
 
-    .main{
+    .main {
         display: flex;
         justify-content: center;
-        .container{
+        .container {
             display: flex;
             margin-left: 12%;
             margin-right: 12%;
             width: 76%;
 
-            .main-text{
-                width:50%;
+            .main-text {
+                width: 50%;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-content: center;
-                h2{
-                    font-family: 'Martel';
+                h2 {
+                    font-family: "Martel";
                     font-style: normal;
                     font-weight: 900;
                     font-size: 58px;
                     line-height: 112%;
                     letter-spacing: 0.2px;
-                    color: #252B42;
+                    color: #252b42;
                 }
-                h3{
+                h3 {
                     margin-top: 35px;
                     margin-bottom: 35px;
-                    
-                    font-family: 'Montserrat';
+
+                    font-family: "Montserrat";
                     font-style: normal;
                     font-weight: 500;
                     font-size: 20px;
@@ -110,10 +111,10 @@ header {
                     letter-spacing: 0.2px;
                     color: #737373;
                 }
-                .buttons{
+                .buttons {
                     display: flex;
-                    button{
-                        font-family: 'Open Sans';
+                    button {
+                        font-family: "Open Sans";
                         font-style: normal;
                         font-weight: 700;
                         font-size: 14px;
@@ -128,87 +129,82 @@ header {
                         padding: 10px 36px;
                         gap: 10px;
                         border-radius: 37px;
-                        &:first-child{
-    
+                        &:first-child {
                             /* secondary-color-2 */
-        
-                            background: #784F33;
-    
+
+                            background: #784f33;
+
                             /* light-text-color */
-    
-                            color: #FFFFFF;
+
+                            color: #ffffff;
                         }
-                        &:last-child{
+                        &:last-child {
                             margin-left: 10px;
-    
+
                             box-sizing: border-box;
-        
+
                             /* secondary-color-2 */
-        
-                            border: 1px solid #784F33;
+
+                            border: 1px solid #784f33;
                             background-color: transparent;
-    
+
                             /* secondary-color-2 */
-    
-                            color: #784F33;
+
+                            color: #784f33;
                         }
                     }
-
                 }
-
             }
-            .agent{
-                width:50%;
+            .agent {
+                width: 50%;
             }
         }
     }
 }
 
-main{
-
-    .areas-block{
+main {
+    .areas-block {
         display: flex;
-        .container{
+        .container {
             margin-top: 100px;
             margin-bottom: 100px;
             margin-left: 12%;
             margin-right: 12%;
             width: 76%;
             text-align: center;
-            h3{
-                font-family: 'Martel';
+            h3 {
+                font-family: "Martel";
                 font-style: normal;
                 font-weight: 700;
                 font-size: 40px;
                 line-height: 125%;
                 letter-spacing: 0.2px;
-                
+
                 /* text-color */
-                
-                color: #252B42;
-                
+
+                color: #252b42;
+
                 text-transform: capitalize;
             }
-            p{
+            p {
                 margin-top: 10px;
                 margin-bottom: 80px;
-                font-family: 'Open Sans';
+                font-family: "Open Sans";
                 font-style: normal;
                 font-weight: 400;
                 font-size: 14px;
                 line-height: 143%;
                 text-align: center;
                 letter-spacing: 0.2px;
-                
+
                 /* second-text-color */
-                
+
                 color: #737373;
-                
             }
-            .cards{
+            .cards {
                 display: flex;
                 justify-content: center;
-                .card{
+                .card {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
@@ -218,13 +214,12 @@ main{
                     width: 325px;
                     height: 147px;
 
-                    background: #F9F9F9;
+                    background: #f9f9f9;
 
                     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
                     border-radius: 5px;
 
-
-                    font-family: 'Martel';
+                    font-family: "Martel";
                     font-style: normal;
                     font-weight: 700;
                     font-size: 16px;
@@ -235,19 +230,19 @@ main{
 
                     /* text-color */
 
-                    color: #252B42;
+                    color: #252b42;
 
-                    &:nth-child(2){
+                    &:nth-child(2) {
                         /* secondary-color-4 */
 
-                        background: #295C7A;
+                        background: #295c7a;
                         margin-left: 32px;
                         margin-right: 32px;
                         color: white;
                     }
 
-                    .card-logo{
-                        width:53px;
+                    .card-logo {
+                        width: 53px;
                         height: 53px;
                     }
                 }
@@ -255,50 +250,49 @@ main{
         }
     }
 
-    .advice-block{
+    .advice-block {
         display: flex;
-        background: #FAFAFA;
-        .container{
+        background: #fafafa;
+        .container {
             margin-top: 100px;
             margin-bottom: 100px;
             margin-left: 12%;
             margin-right: 12%;
             width: 76%;
             text-align: center;
-            h3{
-                font-family: 'Martel';
+            h3 {
+                font-family: "Martel";
                 font-style: normal;
                 font-weight: 700;
                 font-size: 40px;
                 line-height: 125%;
                 letter-spacing: 0.2px;
-                
+
                 /* text-color */
-                
-                color: #252B42;
-                
+
+                color: #252b42;
+
                 text-transform: capitalize;
             }
-            p{
+            p {
                 margin-top: 10px;
                 margin-bottom: 80px;
-                font-family: 'Open Sans';
+                font-family: "Open Sans";
                 font-style: normal;
                 font-weight: 400;
                 font-size: 14px;
                 line-height: 143%;
                 text-align: center;
                 letter-spacing: 0.2px;
-                
+
                 /* second-text-color */
-                
+
                 color: #737373;
-                
             }
-            .cards{
+            .cards {
                 display: flex;
                 justify-content: center;
-                .card{
+                .card {
                     margin-left: 1%;
                     margin-right: 1%;
 
@@ -306,12 +300,12 @@ main{
                     flex-direction: column;
                     align-items: center;
                     justify-content: space-between;
-                    width:238px;
+                    width: 238px;
 
                     background: white;
 
-                    .card-text{
-                        font-family: 'Martel';
+                    .card-text {
+                        font-family: "Martel";
                         font-style: normal;
                         font-weight: 700;
                         font-size: 16px;
@@ -319,13 +313,13 @@ main{
                         margin: 30px;
                         text-align: start;
                         letter-spacing: 0.1px;
-    
+
                         /* text-color */
-    
-                        color: #252B42;
+
+                        color: #252b42;
                     }
 
-                    p{
+                    p {
                         text-align: start;
                         margin-bottom: 0px;
                     }
@@ -334,91 +328,91 @@ main{
         }
     }
 
-    .whoweare-block{
+    .whoweare-block {
         display: flex;
         background: white;
-        .container{
+        .container {
             margin-top: 100px;
             margin-bottom: 100px;
             margin-left: 12%;
             margin-right: 12%;
             width: 76%;
             text-align: center;
-            h3{
-                font-family: 'Martel';
+            h3 {
+                font-family: "Martel";
                 font-style: normal;
                 font-weight: 700;
                 font-size: 40px;
                 line-height: 125%;
                 letter-spacing: 0.2px;
-                
+
                 /* text-color */
-                
-                color: #252B42;
-                
+
+                color: #252b42;
+
                 text-transform: capitalize;
             }
-            p{
+            p {
                 margin-top: 10px;
                 margin-bottom: 80px;
-                font-family: 'Open Sans';
+                font-family: "Open Sans";
                 font-style: normal;
                 font-weight: 400;
                 font-size: 14px;
                 line-height: 143%;
                 text-align: center;
                 letter-spacing: 0.2px;
-                
+
                 /* second-text-color */
-                
+
                 color: #737373;
-                
             }
 
-            .content{
+            .content {
                 display: flex;
                 justify-content: space-between;
                 height: auto;
                 margin-bottom: 143px;
-                .video{
-                    width:55%;
-                    height:max-content;
-                    img{
+                .video {
+                    width: 55%;
+                    height: max-content;
+                    img {
                         width: 100%;
                         height: auto;
                     }
-                    .play{
+                    .play {
                         margin-top: -45%;
                         margin-bottom: 35%;
-                        img{
-                        width:15%;
-                    }
+                        img {
+                            width: 15%;
+                        }
                     }
                 }
-                .desc{
+                .desc {
                     display: flex;
                     flex-direction: column;
                     align-items: flex-start;
                     justify-content: center;
                     width: 35%;
                     text-align: start;
-                    h3,p{
+                    h3,
+                    p {
                         text-align: start;
                         text-transform: none;
                     }
-                    p{
+                    p {
                         margin-bottom: 50px;
                     }
 
-                    .card-item{
+                    .card-item {
                         display: flex;
                         margin-bottom: 30px;
-                        .card-image{
+                        .card-image {
                             margin-right: 20px;
                         }
-                        .card-text{
-                            h5{
-                                font-family: 'Martel';
+                        .card-text {
+                            h5 {
+                                font-family: "Martel";
                                 font-style: normal;
                                 font-weight: 700;
                                 font-size: 16px;
@@ -428,10 +422,10 @@ main{
 
                                 /* text-color */
 
-                                color: #252B42;
+                                color: #252b42;
                             }
-                            h6{
-                                font-family: 'Open Sans';
+                            h6 {
+                                font-family: "Open Sans";
                                 font-style: normal;
                                 font-weight: 700;
                                 font-size: 14px;
@@ -448,168 +442,168 @@ main{
         }
     }
 
-    .partners-block{
-        background-color: #FAFAFA;
-        .container{
+    .partners-block {
+        background-color: #fafafa;
+        .container {
             padding-top: 50px;
             margin-left: 12%;
             margin-right: 12%;
             width: 76%;
             padding-bottom: 135px;
 
-            .logos{
+            .logos {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
             }
         }
-        .underline{
+        .underline {
             width: 100%;
             height: 77px;
 
             /* dark-background-color */
 
-            background: #252B42;
+            background: #252b42;
 
-            .container{
+            .container {
                 margin-left: 12%;
                 margin-right: 12%;
                 width: 76%;
-                .subscribe-block{
+                .subscribe-block {
                     position: relative;
-                    top:-120px;
+                    top: -120px;
 
                     display: flex;
                     flex-direction: row;
                     align-items: flex-start;
                     padding: 30px 50px;
-    
+
                     width: 100%;
                     height: 124px;
-    
+
                     /* background-gradient-1 */
-    
-                    background: linear-gradient(270deg, #295C7A -1.04%, #0072B5 100%);
+
+                    background: linear-gradient(
+                        270deg,
+                        #295c7a -1.04%,
+                        #0072b5 100%
+                    );
                     border-radius: 2px;
-    
-                    .text{
-                        width:50%;
-                        font-family: 'Martel';
+
+                    .text {
+                        width: 50%;
+                        font-family: "Martel";
                         font-style: normal;
                         font-weight: 700;
                         font-size: 24px;
                         line-height: 133%;
                         letter-spacing: 0.1px;
-    
+
                         /* light-text-color */
-    
+
                         color: white;
-                    
                     }
-                    .form{
-                        width:50%;
-    
-                        input{
-                            background: #F9F9F9;
-                            width:75%;
-                            border: 1px solid #E6E6E6;
+                    .form {
+                        width: 50%;
+
+                        input {
+                            background: #f9f9f9;
+                            width: 75%;
+                            border: 1px solid #e6e6e6;
                             border-radius: 5px;
-                            font-family: 'Montserrat';
+                            font-family: "Montserrat";
                             font-style: normal;
                             font-weight: 400;
                             font-size: 14px;
                             line-height: 200%;
-    
+
                             letter-spacing: 0.2px;
-    
+
                             /* second-text-color */
-    
+
                             color: #737373;
-    
-                            padding:15px 5% 15px 5%; 
-                            
+
+                            padding: 15px 5% 15px 5%;
+
                             margin: 0;
-                            
+
                             border-radius: 5px 0px 0px 5px;
                         }
-                        button{
-                            background: #D0A144;
-                            border: 1px solid #E6E6E6;
-    
-                            font-family: 'Montserrat';
+                        button {
+                            background: #d0a144;
+                            border: 1px solid #e6e6e6;
+
+                            font-family: "Montserrat";
                             font-style: normal;
                             font-weight: 400;
                             font-size: 14px;
                             line-height: 200%;
-    
+
                             text-align: center;
                             letter-spacing: 0.2px;
-    
+
                             /* light-text-color */
-    
+
                             color: white;
                             border-radius: 0px 5px 5px 0px;
-    
-                            width:25%;
+
+                            width: 25%;
                             margin: 0;
                             margin-left: -5px;
-                            padding:15px 20px 15px 20px;
+                            padding: 15px 20px 15px 20px;
                         }
                     }
                 }
-    
             }
-
         }
     }
 
-    .getintouch-block{
-        background-color: #F3F3F3;
-        .container{
+    .getintouch-block {
+        background-color: #f3f3f3;
+        .container {
             padding-top: 80px;
             margin-left: 12%;
             margin-right: 12%;
             width: 76%;
             text-align: center;
             padding-bottom: 155px;
-            h3{
-                font-family: 'Martel';
+            h3 {
+                font-family: "Martel";
                 font-style: normal;
                 font-weight: 700;
                 font-size: 40px;
                 line-height: 125%;
                 letter-spacing: 0.2px;
-                
+
                 /* text-color */
-                
-                color: #252B42;
-                
+
+                color: #252b42;
+
                 text-transform: capitalize;
             }
-            p{
+            p {
                 margin-top: 10px;
                 margin-bottom: 80px;
-                font-family: 'Open Sans';
+                font-family: "Open Sans";
                 font-style: normal;
                 font-weight: 400;
                 font-size: 14px;
                 line-height: 143%;
                 text-align: center;
                 letter-spacing: 0.2px;
-                
+
                 /* second-text-color */
-                
+
                 color: #737373;
-                
             }
 
-            .content{
+            .content {
                 display: flex;
                 justify-content: center;
                 align-items: center;
 
-                .card{
-                    width:330px;
+                .card {
+                    width: 330px;
                     height: 340px;
 
                     display: flex;
@@ -618,11 +612,11 @@ main{
                     justify-content: center;
                     padding: 50px 40px;
 
-                    background: #FFFFFF;
-                    
-                    color: #252B42;
-                    a{
-                        font-family: 'Open Sans';
+                    background: #ffffff;
+
+                    color: #252b42;
+                    a {
+                        font-family: "Open Sans";
                         font-style: normal;
                         font-weight: 700;
                         font-size: 14px;
@@ -630,22 +624,22 @@ main{
 
                         text-align: center;
                         letter-spacing: 0.2px;
-                        color: #252B42;
+                        color: #252b42;
                     }
-                    &:nth-child(2){
+                    &:nth-child(2) {
                         height: 400px;
                         padding: 60px 50px;
-                        background: #252B42;
+                        background: #252b42;
 
                         color: white;
-                        a{
+                        a {
                             color: white;
                         }
                     }
-                    .card-text{
+                    .card-text {
                         margin-top: 15px;
-                        h6{
-                            font-family: 'Martel';
+                        h6 {
+                            font-family: "Martel";
                             font-style: normal;
                             font-weight: 700;
                             font-size: 16px;
@@ -657,46 +651,45 @@ main{
                             margin-bottom: 15px;
                         }
                     }
-                    .card-button{
-                        button{
+                    .card-button {
+                        button {
                             display: flex;
                             flex-direction: column;
                             align-items: center;
                             padding: 10px 20px;
                             gap: 10px;
-    
+
                             /* primary-color */
-    
-                            border: 1px solid #D0A144;
+
+                            border: 1px solid #d0a144;
                             border-radius: 5px;
-    
+
                             background-color: transparent;
-    
-                            font-family: 'Open Sans';
+
+                            font-family: "Open Sans";
                             font-style: normal;
                             font-weight: 700;
                             font-size: 14px;
                             line-height: 171%;
-    
+
                             text-align: center;
                             letter-spacing: 0.2px;
-    
+
                             /* primary-color */
-    
-                            color: #D0A144;
+
+                            color: #d0a144;
                         }
                     }
                 }
-
             }
         }
     }
 }
 
-footer{
-    .requestconsult-block{
-        background: #FAFAFA;
-        .container{
+footer {
+    .requestconsult-block {
+        background: #fafafa;
+        .container {
             padding-top: 40px;
             margin-left: 12%;
             margin-right: 12%;
@@ -705,10 +698,10 @@ footer{
 
             display: flex;
 
-            .text-block{
+            .text-block {
                 width: 50%;
-                h3{
-                    font-family: 'Martel';
+                h3 {
+                    font-family: "Martel";
                     font-style: normal;
                     font-weight: 700;
                     font-size: 24px;
@@ -717,12 +710,12 @@ footer{
 
                     /* text-color */
 
-                    color: #252B42;
+                    color: #252b42;
 
                     margin-bottom: 10px;
                 }
-                p{
-                    font-family: 'Open Sans';
+                p {
+                    font-family: "Open Sans";
                     font-style: normal;
                     font-weight: 400;
                     font-size: 14px;
@@ -734,11 +727,11 @@ footer{
                     color: #737373;
                 }
             }
-            .button-block{
+            .button-block {
                 width: 50%;
                 display: flex;
                 justify-content: center;
-                button{
+                button {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
@@ -750,11 +743,10 @@ footer{
 
                     /* secondary-color-2 */
 
-                    background: #784F33;
+                    background: #784f33;
                     border-radius: 5px;
 
-
-                    font-family: 'Open Sans';
+                    font-family: "Open Sans";
                     font-style: normal;
                     font-weight: 700;
                     font-size: 14px;
@@ -764,17 +756,16 @@ footer{
 
                     /* light-text-color */
 
-                    color: #FFFFFF;
-
+                    color: #ffffff;
                 }
             }
         }
     }
 
-    .nav-block{
-        background: linear-gradient(270deg, #295C7A -1.04%, #0072B5 100%);
+    .nav-block {
+        background: linear-gradient(270deg, #295c7a -1.04%, #0072b5 100%);
         color: white;
-        .container{
+        .container {
             padding-top: 40px;
             margin-left: 12%;
             margin-right: 12%;
@@ -784,40 +775,40 @@ footer{
             display: flex;
             justify-content: space-between;
 
-            .col{
-                h6{
-                    font-family: 'Martel';
+            .col {
+                h6 {
+                    font-family: "Martel";
                     font-style: normal;
                     font-weight: 700;
                     font-size: 16px;
-                    line-height: 150%;                    
+                    line-height: 150%;
                     letter-spacing: 0.1px;
 
                     margin-bottom: 20px;
                 }
-                ul{
-                    font-family: 'Open Sans';
+                ul {
+                    font-family: "Open Sans";
                     font-style: normal;
                     font-weight: 600;
                     font-size: 14px;
-                    line-height: 171%;                    
+                    line-height: 171%;
                     letter-spacing: 0.2px;
 
-                    li{
+                    li {
                         margin-bottom: 10px;
                     }
                 }
 
-                &:last-child{
-                    ul{
-                        li{
+                &:last-child {
+                    ul {
+                        li {
                             display: flex;
                             align-items: center;
-                            img{
+                            img {
                                 margin-right: 10px;
                             }
-                            a{
-                                color:white;
+                            a {
+                                color: white;
                             }
                         }
                     }
@@ -826,10 +817,10 @@ footer{
         }
     }
 
-    .madeby-block{
-        background: #FAFAFA;
+    .madeby-block {
+        background: #fafafa;
         color: white;
-        .container{
+        .container {
             padding-top: 25px;
             margin-left: 12%;
             margin-right: 12%;
@@ -840,8 +831,8 @@ footer{
             justify-content: space-between;
             align-items: center;
 
-            .text{
-                font-family: 'Open Sans';
+            .text {
+                font-family: "Open Sans";
                 font-style: normal;
                 font-weight: 700;
                 font-size: 14px;
@@ -852,12 +843,744 @@ footer{
 
                 color: #737373;
             }
-            .icons{
+            .icons {
                 display: flex;
                 align-items: center;
-                a{
+                a {
                     margin-left: 10px;
                     margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    header {
+    }
+    main {
+        .whoweare-block {
+            .container {
+                .content {
+                    .desc {
+                        h3 {
+                            font-size: 20px;
+                        }
+                        .card-item {
+                            .card-text {
+                                h5 {
+                                    font-size: 14px;
+                                }
+                                h6 {
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .partners-block {
+            .underline {
+                .container {
+                    .subscribe-block {
+                        .form {
+                            input {
+                                width: 60%;
+                            }
+                            button {
+                                width: 40%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer {
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    header {
+        background-image: url("content/background-mobile.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        .nav {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            height: 104px;
+            .container {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 76%;
+                .logo {
+                    font-family: "Martel";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 133%;
+
+                    letter-spacing: 0.1px;
+
+                    color: #252b42;
+                }
+                .nav-right {
+                    display: flex;
+                    .menu-items {
+                        display: none;
+                        justify-self: end;
+                        ul {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+
+                            font-family: "Open Sans";
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 14px;
+
+                            text-align: center;
+                            letter-spacing: 0.2px;
+
+                            color: #737373;
+                            li {
+                                padding: 10px;
+                            }
+                        }
+                    }
+                    .icons {
+                        margin-bottom: 5px;
+                        .cart-icon {
+                            
+                            margin-left: 18px;
+                            margin-right: 18px;
+                            display: flex;
+                            align-items: center;
+                        }
+
+                        .toggler {
+                            display: flex;
+                            align-items: center;
+                            margin-left: 18px;
+                            height: 24px;
+                        }
+
+                        
+                        img{
+                            width: 24px;
+                        }
+                    }
+                }
+            }
+        }
+
+        
+        .mobile-nav{
+            display: none;
+            background-color: white;
+            padding-top: 60px;
+            padding-bottom: 80px;
+            ul{
+                li{
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 30px;
+                    line-height: 150%;                    
+                    text-align: center;
+                    letter-spacing: 0.2px;
+                    
+                    /* second-text-color */
+                    
+                    color: #737373;
+                    margin-bottom: 30px;
+
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                }
+
+            }
+        }
+
+        .main {
+            .container {
+                display: flex;
+                flex-direction: column;
+                margin-left: 0;
+                margin-right: 0;
+                width: 100%;
+                margin-left: 5%;
+                margin-right: 5%;
+                .main-text {
+                    width: 100%;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-content: center;
+                    h2 {
+                        font-weight: 700;
+                        font-size: 40px;
+                        line-height: 125%;
+                        margin-top: 84px;
+                    }
+                    h3 {
+                        margin-top: 35px;
+                        margin-bottom: 35px;
+
+                        font-family: "Montserrat";
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 150%;
+                        letter-spacing: 0.2px;
+                        color: #737373;
+                    }
+                    .buttons {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+
+                        margin-bottom: 108px;
+                        button {
+                            font-family: "Open Sans";
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 14px;
+                            line-height: 200%;
+
+                            text-align: center;
+                            letter-spacing: 0.2px;
+
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            padding: 10px 36px;
+                            gap: 10px;
+                            border-radius: 37px;
+                            &:first-child {
+                                /* secondary-color-2 */
+
+                                background: #784f33;
+
+                                /* light-text-color */
+
+                                color: #ffffff;
+
+                                margin-bottom: 20px;
+                            }
+                            &:last-child {
+                                margin-left: 0;
+
+                                box-sizing: border-box;
+
+                                /* secondary-color-2 */
+
+                                border: 1px solid #784f33;
+                                background-color: transparent;
+
+                                /* secondary-color-2 */
+
+                                color: #784f33;
+                            }
+                        }
+                    }
+                }
+                .agent {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img{
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        .areas-block {
+            display: flex;
+            .container {
+                margin-top: 100px;
+                margin-bottom: 100px;
+                margin-left: 12%;
+                margin-right: 12%;
+                text-align: center;
+                h3 {
+                    font-family: "Martel";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 125%;
+                    letter-spacing: 0.2px;
+
+                    /* text-color */
+
+                    color: #252b42;
+
+                    text-transform: capitalize;
+                }
+                p {
+                    margin-top: 10px;
+                    margin-bottom: 80px;
+                    font-family: "Open Sans";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 143%;
+                    text-align: center;
+                    letter-spacing: 0.2px;
+
+                    /* second-text-color */
+
+                    color: #737373;
+                }
+                .cards {
+                    flex-direction: column;
+                    align-items: center;
+                    .card {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding: 30px 40px;
+                        gap: 10px;
+
+                        width: 325px;
+                        height: 147px;
+
+                        background: #f9f9f9;
+
+                        box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+                        border-radius: 5px;
+
+                        font-family: "Martel";
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 150%;
+
+                        text-align: center;
+                        letter-spacing: 0.1px;
+
+                        /* text-color */
+
+                        color: #252b42;
+
+                        &:nth-child(2) {
+                            margin-left: 0;
+                            margin-right: 0;
+                            margin-top: 30px;
+                            margin-bottom: 30px;
+                        }
+
+                        .card-logo {
+                            width: 53px;
+                            height: 53px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .advice-block {
+            display: flex;
+            background: #fafafa;
+            .container {
+                margin-top: 100px;
+                margin-bottom: 100px;
+                margin-left: 12%;
+                margin-right: 12%;
+                width: 76%;
+                text-align: center;
+                h3 {
+                    font-family: "Martel";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 125%;
+                    letter-spacing: 0.2px;
+
+                    /* text-color */
+
+                    color: #252b42;
+
+                    text-transform: capitalize;
+                }
+                p {
+                    margin-top: 10px;
+                    margin-bottom: 80px;
+                    font-family: "Open Sans";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 143%;
+                    text-align: center;
+                    letter-spacing: 0.2px;
+
+                    /* second-text-color */
+
+                    color: #737373;
+                }
+                .cards {
+                    flex-direction: column;
+                    align-items: center;
+                    .card {
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }
+
+        .whoweare-block {
+            display: flex;
+            background: white;
+            .container {
+                margin-top: 100px;
+                margin-bottom: 100px;
+                margin-left: 12%;
+                margin-right: 12%;
+                width: 76%;
+                text-align: center;
+                h3 {
+                    font-family: "Martel";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 125%;
+                    letter-spacing: 0.2px;
+
+                    /* text-color */
+
+                    color: #252b42;
+
+                    text-transform: capitalize;
+                }
+                p {
+                    margin-top: 10px;
+                    margin-bottom: 80px;
+                    font-family: "Open Sans";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 143%;
+                    text-align: center;
+                    letter-spacing: 0.2px;
+
+                    /* second-text-color */
+
+                    color: #737373;
+                }
+
+                .content {
+                    flex-direction: column;
+                    .video {
+                        width: 100%;
+                        height: max-content;
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                        .play {
+                            margin-top: -45%;
+                            margin-bottom: 35%;
+                            img {
+                                width: 15%;
+                            }
+                        }
+                    }
+                    .desc {
+                        width: 100%;
+                        text-align: start;
+                        margin-top: 72px;
+                        h3 {
+                            font-size: 40px;
+                        }
+                        h3,
+                        p {
+                            text-align: start;
+                            text-transform: none;
+                        }
+                        p {
+                            margin-bottom: 50px;
+                        }
+
+                        .card-item {
+                            display: flex;
+                            margin-bottom: 30px;
+                            .card-image {
+                                margin-right: 20px;
+                            }
+                            .card-text {
+                                h5 {
+                                    font-size: 16px;
+                                }
+                                h6 {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .partners-block {
+            background-color: #fafafa;
+            .container {
+                padding-top: 50px;
+                margin-left: 12%;
+                margin-right: 12%;
+                width: 76%;
+                padding-bottom: 135px;
+
+                .logos {
+                    padding-top:50px;
+                    padding-bottom: 50px;
+                    flex-direction: column;
+                    .logo{
+                    
+                        width: 150px;
+                        margin-bottom: 60px;
+                        img{
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+            .underline {
+                width: 100%;
+                height: 77px;
+
+                /* dark-background-color */
+
+                background: #fafafa;
+
+                .container {
+                    margin-left: 0;
+                    margin-right: 0;
+                    width: 100%;
+                    .subscribe-block {
+
+                        top: -165px;
+
+                        flex-direction: column;
+
+                        padding: 30px 50px;
+
+                        width: 100%;
+                        height: auto;
+
+                        /* background-gradient-1 */
+
+                        background: linear-gradient(
+                            270deg,
+                            #295c7a -1.04%,
+                            #0072b5 100%
+                        );
+                        border-radius: 2px;
+
+                        .text {
+                            width: 100%;
+                            text-align: center;
+                            margin-bottom: 30px;
+                        }
+                        .form {
+                            width: 100%;
+
+                            input {
+                                width: 60%;
+                            }
+                            button {
+                                width: 40%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .getintouch-block {
+            .container {
+                padding-top: 80px;
+                margin-left: 12%;
+                margin-right: 12%;
+                width: 76%;
+                text-align: center;
+                padding-bottom: 155px;
+                h3 {
+                    font-family: "Martel";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 125%;
+                    letter-spacing: 0.2px;
+
+                    /* text-color */
+
+                    color: #252b42;
+
+                    text-transform: capitalize;
+                }
+                p {
+                    margin-top: 10px;
+                    margin-bottom: 80px;
+                    font-family: "Open Sans";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 143%;
+                    text-align: center;
+                    letter-spacing: 0.2px;
+
+                    /* second-text-color */
+
+                    color: #737373;
+                }
+
+                .content {
+                    flex-direction: column;
+
+                    .card {
+                        flex-direction: column;
+                        &:nth-child(2) {
+                            margin-top: 30px;
+                            margin-bottom: 30px;
+                        }
+                        .card-text {
+                            margin-top: 15px;
+                            h6 {
+                                font-family: "Martel";
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 16px;
+                                line-height: 150%;
+                                text-align: center;
+                                letter-spacing: 0.1px;
+
+                                margin-top: 15px;
+                                margin-bottom: 15px;
+                            }
+                        }
+                        .card-button {
+                            button {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                padding: 10px 20px;
+                                gap: 10px;
+
+                                /* primary-color */
+
+                                border: 1px solid #d0a144;
+                                border-radius: 5px;
+
+                                background-color: transparent;
+
+                                font-family: "Open Sans";
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 14px;
+                                line-height: 171%;
+
+                                text-align: center;
+                                letter-spacing: 0.2px;
+
+                                /* primary-color */
+
+                                color: #d0a144;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        .requestconsult-block {
+            .container {
+                padding-top: 40px;
+                padding-bottom: 40px;
+                margin-left: 20%;
+                margin-right: 20%;
+                width:60%;
+
+                flex-direction: column;
+
+                .text-block {
+                    width: 100%;
+                    margin-bottom: 50px;
+                }
+                .button-block {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    button {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding: 15px 40px;
+                        gap: 10px;
+
+                        width: 158px;
+                        height: 58px;
+
+                        /* secondary-color-2 */
+
+                        background: #784f33;
+                        border-radius: 5px;
+
+                        font-family: "Open Sans";
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 200%;
+                        text-align: center;
+                        letter-spacing: 0.2px;
+
+                        /* light-text-color */
+
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+
+        .nav-block {
+            .container {
+                flex-direction: column;
+
+                .col {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+
+        .madeby-block {
+            .container {
+                flex-direction: column;
+
+                .text {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: start;
+                    width: 100%;
+                }
+                .icons {
+                    display: flex;
+                    align-items: flex-start;
+                    width: 100%;
+                    margin-top: 50px;
+                    margin-bottom: 50px;
                 }
             }
         }

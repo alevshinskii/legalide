@@ -32,19 +32,31 @@
                             <div class="cart-icon">
                                 <img src="content/cart.svg" alt="cart" />
                             </div>
+                            <a href="javascript:void(0);" onclick="toggleNav()">
+                                <div class="toggler">
+                                    <img src="content/toggler.png" alt="toggler" />
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="toggler">
-                <img src="content/toggler.png" alt="toggler" />
-            </div>
+            <div class="mobile-nav" id="mobile-nav">
+                <div class="menu-items">
+                    <ul>
+                        <li>Home</li>
+                        <li>Product</li>
+                        <li>Pricing</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+              </div>
             <div class="main">
                 <div class="container">
                     <div class="main-text">
                         <h2>Help to reclaim your life and freedom</h2>
                         <h3>
-                            We know how large objects will act,<br>but things on a
+                            We know how large objects will act, but things on a
                             small scale.
                         </h3>
                         <div class="buttons">
@@ -63,7 +75,7 @@
                 <div class="container">
                     <h3>Our practice areas</h3>
                     <p>Problems trying to resolve the conflict between 
-                        <br>the two major realms of Classical physics: Newtonian mechanics </p>
+                        the two major realms of Classical physics: Newtonian mechanics </p>
                     <div class="cards">
                         <div class="card">
                             <div class="card-logo">
@@ -223,7 +235,7 @@
                     <div class="container">
                         <div class="subscribe-block">
                             <div class="text">
-                                <h4>Subscribe For Latest<br>
+                                <h4>Subscribe For Latest
                                     Newsletter</h4>
                             </div>
                             <div class="form">
@@ -419,3 +431,13 @@
         </footer>
     </body>
 </html>
+<script>
+    function toggleNav() {
+        var x = document.getElementById("mobile-nav");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
