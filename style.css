@@ -567,7 +567,8 @@ footer .requestconsult-block {
         line-height: 133%;
         letter-spacing: 0.1px;
         /* text-color */
-        color: #252B42; }
+        color: #252B42;
+        margin-bottom: 10px; }
       footer .requestconsult-block .container .text-block p {
         font-family: 'Open Sans';
         font-style: normal;
@@ -601,5 +602,40 @@ footer .requestconsult-block {
         letter-spacing: 0.2px;
         /* light-text-color */
         color: #FFFFFF; }
+footer .nav-block {
+  background: linear-gradient(270deg, #295C7A -1.04%, #0072B5 100%);
+  color: white; }
+  footer .nav-block .container {
+    padding-top: 40px;
+    margin-left: 12%;
+    margin-right: 12%;
+    width: 76%;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between; }
+    footer .nav-block .container .col h6 {
+      font-family: 'Martel';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.1px;
+      margin-bottom: 20px; }
+    footer .nav-block .container .col ul {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 171%;
+      letter-spacing: 0.2px; }
+      footer .nav-block .container .col ul li {
+        margin-bottom: 10px; }
+    footer .nav-block .container .col:last-child ul li {
+      display: flex;
+      align-items: center; }
+      footer .nav-block .container .col:last-child ul li img {
+        margin-right: 10px; }
+      footer .nav-block .container .col:last-child ul li a {
+        color: white; }
 
 /*# sourceMappingURL=style.css.map */
